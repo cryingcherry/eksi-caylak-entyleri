@@ -1,7 +1,7 @@
 function countNamedSpans() {
   const namedSpans = document.querySelectorAll('span[itemprop="name"]');
   const namedSpansCount = namedSpans.length;
-  console.log(`Sayfadaki entry sayısı: ${namedSpansCount}`);
+  alert(`Sayfadaki entry sayısı: ${namedSpansCount}`);
 }
 
 let isPageEndReached = false;
